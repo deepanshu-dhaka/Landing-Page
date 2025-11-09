@@ -84,3 +84,48 @@ body{
     width: auto;
     border-radius: 50px;
 }
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    height: 650px;
+}
+
+.second-section-header h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.prestigious-members-information{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.member-1, .member-2, .member-3, .member-4{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 250px;
+    gap: 10px;
+    
+}
+
+.member-1-information, .member-2-information, .member-3-information, .member-4-information{
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.prestigious-members-information img{
+    width: 250px;
+    height: 310px;
+    border-radius: 15px;
+    object-fit: cover;
+}
