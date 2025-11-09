@@ -129,3 +129,32 @@ body{
     border-radius: 15px;
     object-fit: cover;
 }
+
+.third-section{
+    background-color: #E5E7EB;
+    height: 600px;
+    
+}
+
+.quote-section  {
+    display: flex;
+    flex-direction: column;
+    /* justify-content:end; */
+    align-items: center;
+    gap: 20px;
+    
+}
+
+em{
+    font-size: 36px;
+    color: #1F2937;
+   text-align: center;
+   width: 700px;
+   margin-top: 165px;
+   
+
+}
+
+.quote-section p{
+    margin-left: 200px;
+}
