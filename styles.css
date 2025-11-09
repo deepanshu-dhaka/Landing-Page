@@ -1,19 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: "Roboto", sans-serif;
-    margin: 0px;
-    padding: 0px;
 }
 
 .first-section{
     background-color: #1F2937;
     color: white;
     padding: 0px 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    height: 560px;
+}
+
+.hero-section p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 10px 0;
 }
 
 .header{
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.hero-section h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .header-links a{
@@ -22,12 +44,43 @@ body{
     font-size: 18px;
 }
 
-.header-logo h3{
-    font-size: 24px;
-    color: #F9FAF8;
+.header-logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
 }
 
 .header-links{
     display: flex;
     gap: 18px;
+}
+
+.first-section-content{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.hero-section button{
+    width: 90px;
+    padding: 6px 14px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.first-section-image img{
+    height: 292.8px;
+    width: auto;
+    border-radius: 50px;
 }
