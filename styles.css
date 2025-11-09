@@ -149,6 +149,7 @@ em{
     font-size: 36px;
     color: #1F2937;
    text-align: center;
+   font-weight: 300;
    width: 700px;
    margin-top: 165px;
    
@@ -158,3 +159,44 @@ em{
 .quote-section p{
     margin-left: 200px;
 }
+
+.fourth-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.fourth-section-container{
+    display: flex;
+    gap: 20px;
+    background-color: #3882F6;
+    height: 150px;
+    width: 1000px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-section-text h3{
+    color: white;
+}
+
+.fourth-section-text p {
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.fourth-section-button{
+    padding: 6px 20px;
+    background-color: #3882F6;
+    border: solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    border-width: 2px;
+    cursor: pointer;
+
+}
+
